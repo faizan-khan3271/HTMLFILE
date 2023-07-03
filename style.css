@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lato:ital@1&family=Raleway:wght@900&family=Roboto:ital,wght@1,900&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lato:ital@1&family=Raleway:wght@900&family=Roboto:ital,wght@1,900&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(238, 227, 236);
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 69px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+nav ul li{
+    padding: 0 22px;
+}
+.logo img{
+    height: 44px;
+}
+.logo{
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:20px;
+    cursor: pointer;
+}
+.it{
+    padding :0 7px;
+}
